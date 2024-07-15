@@ -4,6 +4,21 @@
 const {CracoAliasPlugin} = require('react-app-alias');
 
 module.exports = {
+  webpack: {
+    configure: {
+      output: {
+        publicPath:
+          process.env.NODE_ENV === 'production' ? '/your-repo-name/' : '/',
+      },
+    },
+  },
+  jest: {
+    configure: {
+      preset: 'ts-jest',
+      testEnvironment: 'jsdom',
+      moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
+    },
+  },
   plugins: [
     {
       plugin: CracoAliasPlugin,

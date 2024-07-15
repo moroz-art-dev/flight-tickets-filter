@@ -8,7 +8,7 @@
       "@components/*": ["components/*"],
       "@containers/*": ["containers/*"],
       "@config/*": ["config/*"],
-      "@hooks/*": ["hooks/*"],
+      "@hooks/*": ["tools/hooks/*"],
       "@i18n/*": ["i18n/*"],
       "@models/*": ["models/*"],
       "@pages/*": ["pages/*"],
