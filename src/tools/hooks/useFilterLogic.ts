@@ -1,6 +1,7 @@
 import {
   setFilter,
   clearFilter,
+  removeFilter,
 } from '@app/store/redux/features/filter/filterSlice';
 import {applyFiltersAndSort} from '@app/store/redux/features/tickets/ticketsThunks';
 import {useAppDispatch, useAppSelector} from '@app/store/redux/hooks';
@@ -15,7 +16,9 @@ export const useFilterLogic = () => {
     (filterId: string) => {
       if (filterId === 'all') {
         dispatch(clearFilter());
+        dispatch(setFilter(filterId));
       } else {
+        dispatch(removeFilter('all'));
         dispatch(setFilter(filterId));
       }
     },

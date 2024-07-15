@@ -3,7 +3,7 @@ import React from 'react';
 import {RouterProvider, createBrowserRouter} from 'react-router-dom';
 
 const router = createBrowserRouter(routesConfig, {
-  basename: process.env.PUBLIC_URL || '/',
+  basename: '/flight-tickets-filter',
 });
 
 const Routes: React.FC = () => {

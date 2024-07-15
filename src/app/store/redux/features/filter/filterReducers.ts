@@ -12,11 +12,18 @@ const setFilter = (state: FilterState, action: PayloadAction<string>) => {
   }
 };
 
+const removeFilter = (state: FilterState, action: PayloadAction<string>) => {
+  state.selectedFilters = state.selectedFilters.filter(
+    filter => filter !== action.payload
+  );
+};
+
 const clearFilter = (state: FilterState) => {
   state.selectedFilters = [];
 };
 
 export const filterReducers = {
   setFilter,
+  removeFilter,
   clearFilter,
 };

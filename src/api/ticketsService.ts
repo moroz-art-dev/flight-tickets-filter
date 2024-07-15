@@ -1,4 +1,4 @@
-const API_URL = '/tickets.json';
+const API_URL = '/flight-tickets-filter/tickets.json';
 
 const handleResponse = async (response: Response): Promise<any> => {
   if (!response.ok) {
