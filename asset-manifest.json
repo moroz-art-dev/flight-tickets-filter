@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/flight-tickets-filter/static/css/main.f468c35b.css",
-    "main.js": "/flight-tickets-filter/static/js/main.b9562460.js",
+    "main.css": "/flight-tickets-filter/static/css/main.12bf6b75.css",
+    "main.js": "/flight-tickets-filter/static/js/main.67898ddc.js",
     "static/js/453.2ff6faa3.chunk.js": "/flight-tickets-filter/static/js/453.2ff6faa3.chunk.js",
+    "static/media/a4e-logo.svg": "/flight-tickets-filter/static/media/a4e-logo.3ccacd257f5640160c5759cf5745ca7c.svg",
     "static/media/logo.svg": "/flight-tickets-filter/static/media/logo.700fd2fb9d68850d5f1d34f5b4c5efaf.svg",
     "static/media/logo-shadow.svg": "/flight-tickets-filter/static/media/logo-shadow.e423f6cc5b0476b4f097.svg",
     "index.html": "/flight-tickets-filter/index.html",
     "static/media/getFetch.cjs": "/flight-tickets-filter/static/media/getFetch.c4cca45e22bc1b2c7d0d.cjs",
     "static/media/checkbox-checked.svg": "/flight-tickets-filter/static/media/checkbox-checked.0fa36354974ac983e8c4.svg",
     "static/media/checkbox-unchecked.svg": "/flight-tickets-filter/static/media/checkbox-unchecked.ad129cbfffeae07a4acb.svg",
-    "main.f468c35b.css.map": "/flight-tickets-filter/static/css/main.f468c35b.css.map",
-    "main.b9562460.js.map": "/flight-tickets-filter/static/js/main.b9562460.js.map",
+    "main.12bf6b75.css.map": "/flight-tickets-filter/static/css/main.12bf6b75.css.map",
+    "main.67898ddc.js.map": "/flight-tickets-filter/static/js/main.67898ddc.js.map",
     "453.2ff6faa3.chunk.js.map": "/flight-tickets-filter/static/js/453.2ff6faa3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f468c35b.css",
-    "static/js/main.b9562460.js"
+    "static/css/main.12bf6b75.css",
+    "static/js/main.67898ddc.js"
   ]
 }
