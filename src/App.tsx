@@ -1,7 +1,12 @@
-import "./App.css";
+import Routes from '@app/Routes';
+import React from 'react';
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <Routes />
+    </>
+  );
 }
 
 export default App;

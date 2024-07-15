@@ -1,0 +1,10 @@
+@import '@styles/variables';
+@import '@styles/mixins';
+
+.sidebar {
+  width: 100%;
+
+  @include responsive(md) {
+    width: $width-sidebar;
+  }
+}

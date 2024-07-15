@@ -1,0 +1,41 @@
+@import '@styles/variables';
+@import '@styles/mixins';
+
+.logo {
+  display: inline-block;
+  position: relative;
+  width: 82px;
+  height: 89px;
+  background: url('~@assets/images/logo-shadow.svg') no-repeat center;
+  background-size: contain;
+
+  &__image {
+    margin-top: 6px;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    z-index: 2;
+    background: url('~@assets/images/logo.svg') no-repeat center;
+    background-size: contain;
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 1;
+  }
+
+  &:hover {
+    &::before {
+      opacity: 1;
+    }
+  }
+}

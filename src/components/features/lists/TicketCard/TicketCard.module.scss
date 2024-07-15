@@ -1,0 +1,77 @@
+@import '@styles/variables';
+@import '@styles/mixins';
+
+.ticket-card {
+  background-color: $color-white;
+  border-radius: $border-radius;
+  box-shadow: $box-shadow-default;
+  padding: $padding-base;
+  margin-bottom: $margin-base;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: $margin-base;
+  }
+
+  &__price {
+    @include font-size($font-size-lg, $line-height-lg);
+
+    font-weight: $font-weight-bold;
+    color: $color-primary;
+  }
+
+  &__logo {
+    img {
+      height: 41px;
+      width: auto;
+    }
+  }
+
+  &__segments {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__segment {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+    &:last-child {
+      margin-bottom: 0;
+      padding-bottom: 0;
+      border-bottom: none;
+    }
+  }
+
+  &__column {
+    flex: 1;
+    padding: 0 10px;
+
+    &:first-child {
+      padding-left: 0;
+    }
+
+    &:last-child {
+      padding-right: 0;
+    }
+  }
+
+  &__label {
+    @include font-size($font-size-xs, $line-height-xs);
+
+    color: $color-text-secondary;
+    letter-spacing: $letter-spacing-base;
+    text-transform: uppercase;
+    display: block;
+  }
+
+  &__value {
+    @include font-size($font-size-base, $line-height-base);
+
+    color: $color-text-main;
+    font-weight: $font-weight-bold;
+  }
+}

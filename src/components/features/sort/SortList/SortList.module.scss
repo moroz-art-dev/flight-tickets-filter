@@ -1,0 +1,10 @@
+@import '@styles/variables';
+
+.sort-list {
+  margin-bottom: $margin-base;
+
+  &__items {
+    display: flex;
+    width: 100%;
+  }
+}

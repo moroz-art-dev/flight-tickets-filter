@@ -1,0 +1,23 @@
+@import '@styles/variables';
+
+.load-more {
+  width: 100%;
+  text-transform: uppercase;
+  height: $height-button;
+  background-color: $color-primary;
+  color: $color-white;
+  border-radius: $border-radius;
+  font-size: $font-size-xs;
+  line-height: $line-height-sm;
+  font-weight: $font-weight-bold;
+  letter-spacing: $letter-spacing-base;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: 1px solid $color-primary;
+
+  &:hover {
+    background-color: $color-white;
+    color: $color-text-main;
+    border-color: $color-border;
+  }
+}

@@ -1,0 +1,23 @@
+@import '@styles/main';
+@import '@styles/variables';
+@import '@styles/mixins';
+
+.main {
+  background-color: $color-main-bg;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.layout {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 $padding-base $padding-base;
+
+  @include responsive(md) {
+    flex-direction: row;
+    gap: 40px;
+  }
+}

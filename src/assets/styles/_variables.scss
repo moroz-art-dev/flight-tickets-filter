@@ -1,0 +1,53 @@
+// Typography
+$font-family-base: 'Open Sans', sans-serif;
+$font-weight-normal: 400;
+$font-weight-bold: 600;
+
+// Colors
+$color-primary: #2196f3;
+$color-text-main: #4a4a4a;
+$color-text-dark: #211c1c;
+$color-text-secondary: #a0b0b9;
+$color-checkbox-inactive: #9abbce;
+$color-border: #dfe5ec;
+$color-white: #fff;
+$color-hover-bg: #f1fcff;
+$color-main-bg: #f3f7fa;
+
+// Font sizes (in rem for better accessibility)
+$font-size-xs: 0.75rem; // 12px
+$font-size-sm: 0.8125rem; // 13px
+$font-size-base: 0.875rem; // 14px
+$font-size-lg: 1.5rem; // 24px
+
+// Line heights
+$line-height-xs: 18px; // 18px for 12px font
+$line-height-sm: 20px; // 20px for 13px font
+$line-height-base: 21px; // 21px for 14px font
+$line-height-lg: 24px; // 24px for 24px font
+
+// Letter spacing
+$letter-spacing-base: 0.5px;
+
+// Shadows
+$box-shadow-default: 0 2px 8px 0 rgb(0 0 0 / 10%);
+
+// Radius
+$border-radius: 5px;
+
+// Breakpoints
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+
+// Paddings and margins
+$padding-base: 1.25rem;
+$margin-base: 1.25rem;
+
+// Width and height
+$width-content: 502px;
+$width-sidebar: 232px;
+$height-header: 160px;
+$height-button: 50px;
+$height-filter-item: 40px;

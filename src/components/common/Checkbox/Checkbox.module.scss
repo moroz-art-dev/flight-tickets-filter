@@ -1,0 +1,38 @@
+@import '@styles/variables';
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  height: 40px;
+  padding: 0.5rem $padding-base;
+  width: 100%;
+
+  &__input {
+    display: none;
+  }
+
+  &__icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  &--checked .checkbox__icon {
+    background-image: url('~@assets/icons/checkbox-checked.svg');
+  }
+
+  &:not(.checkbox--checked) .checkbox__icon {
+    background-image: url('~@assets/icons/checkbox-unchecked.svg');
+  }
+
+  &__label {
+    font-weight: $font-weight-normal;
+    font-size: $font-size-sm;
+    line-height: $line-height-sm;
+    color: $color-text-main;
+  }
+}

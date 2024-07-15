@@ -1,0 +1,9 @@
+@import '@styles/variables';
+@import '@styles/mixins';
+
+.home-page {
+  background-color: $color-main-bg;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

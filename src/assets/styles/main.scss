@@ -1,0 +1,15 @@
+@import 'normalize-scss/sass/normalize/import-now';
+@import '@styles/variables';
+@import '@styles/mixins';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-family-base;
+  color: $color-text-main;
+  background: $color-main-bg;
+
+  @include font-size($font-size-base, $line-height-base);
+}

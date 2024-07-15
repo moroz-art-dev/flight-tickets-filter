@@ -1,0 +1,44 @@
+@import '@styles/variables';
+
+.sort-item {
+  flex: 1;
+  height: 50px;
+  border: 1px solid $color-border;
+  background-color: $color-white;
+  color: $color-text-main;
+  font-size: $font-size-xs;
+  line-height: $line-height-sm;
+  font-weight: $font-weight-bold;
+  letter-spacing: $letter-spacing-base;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  &:not(:last-child) {
+    border-right: none;
+  }
+
+  &--active {
+    background-color: $color-primary;
+    color: $color-white;
+    border-color: $color-primary;
+
+    & + .sort-item {
+      border-left: none;
+    }
+  }
+
+  &--first {
+    border-top-left-radius: $border-radius;
+    border-bottom-left-radius: $border-radius;
+  }
+
+  &--last {
+    border-top-right-radius: $border-radius;
+    border-bottom-right-radius: $border-radius;
+  }
+
+  &:hover:not(.sort-item--active) {
+    background-color: #f1fcff;
+  }
+}

@@ -1,0 +1,10 @@
+@import '@styles/variables';
+@import '@styles/mixins';
+
+.header {
+  height: $height-header;
+  padding: $padding-base;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
