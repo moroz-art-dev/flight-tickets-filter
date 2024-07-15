@@ -1,0 +1,18 @@
+{
+  "extends": [
+    "stylelint-config-standard-scss",
+    "stylelint-prettier/recommended"
+  ],
+  "rules": {
+    "at-rule-no-unknown": null,
+    "scss/at-rule-no-unknown": true,
+    "prettier/prettier": true,
+    "selector-class-pattern": [
+      "^[a-z]+(-[a-z]+)*(__[a-z]+(-[a-z]+)*)?(--[a-z]+(-[a-z]+)*)?$",
+      {
+        "resolveNestedSelectors": true,
+        "message": "Expected class selector to be in BEM format"
+      }
+    ]
+  }
+}

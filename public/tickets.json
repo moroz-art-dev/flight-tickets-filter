@@ -1,0 +1,340 @@
+[
+  {
+    "id": "1",
+    "price": 15000,
+    "currency": "USD",
+    "logo": "a4e-logo.svg",
+    "segments": [
+      {
+        "origin": "LHR",
+        "destination": "DXB",
+        "departureTime": "10:45",
+        "arrivalTime": "08:00",
+        "duration": 1235,
+        "stops": ["HKG", "JNB"],
+        "transfers": 2
+      },
+      {
+        "origin": "DXB",
+        "destination": "LHR",
+        "departureTime": "11:20",
+        "arrivalTime": "00:50",
+        "duration": 990,
+        "stops": ["HKG", "JNB"],
+        "transfers": 2
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "price": 20000,
+    "currency": "USD",
+    "logo": "a4e-logo.svg",
+    "segments": [
+      {
+        "origin": "JFK",
+        "destination": "LHR",
+        "departureTime": "14:00",
+        "arrivalTime": "06:30",
+        "duration": 1230,
+        "stops": ["AMS"],
+        "transfers": 1
+      },
+      {
+        "origin": "LHR",
+        "destination": "JFK",
+        "departureTime": "08:00",
+        "arrivalTime": "10:30",
+        "duration": 630,
+        "stops": ["CDG"],
+        "transfers": 1
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "price": 700,
+    "currency": "USD",
+    "logo": "a4e-logo.svg",
+    "segments": [
+      {
+        "origin": "SFO",
+        "destination": "SYD",
+        "departureTime": "22:00",
+        "arrivalTime": "07:00",
+        "duration": 1200,
+        "stops": ["HKG"],
+        "transfers": 1
+      },
+      {
+        "origin": "SYD",
+        "destination": "SFO",
+        "departureTime": "12:00",
+        "arrivalTime": "15:00",
+        "duration": 1080,
+        "stops": ["NRT"],
+        "transfers": 1
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "price": 500,
+    "currency": "USD",
+    "logo": "a4e-logo.svg",
+    "segments": [
+      {
+        "origin": "LHR",
+        "destination": "DXB",
+        "departureTime": "10:45",
+        "arrivalTime": "08:00",
+        "duration": 1235,
+        "stops": [],
+        "transfers": 0
+      },
+      {
+        "origin": "DXB",
+        "destination": "LHR",
+        "departureTime": "11:20",
+        "arrivalTime": "00:50",
+        "duration": 990,
+        "stops": [],
+        "transfers": 0
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "price": 6000,
+    "currency": "USD",
+    "logo": "a4e-logo.svg",
+    "segments": [
+      {
+        "origin": "JFK",
+        "destination": "LHR",
+        "departureTime": "14:00",
+        "arrivalTime": "06:30",
+        "duration": 1230,
+        "stops": ["AMS"],
+        "transfers": 1
+      },
+      {
+        "origin": "LHR",
+        "destination": "JFK",
+        "departureTime": "08:00",
+        "arrivalTime": "10:30",
+        "duration": 630,
+        "stops": ["CDG"],
+        "transfers": 1
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "price": 700,
+    "currency": "USD",
+    "logo": "a4e-logo.svg",
+    "segments": [
+      {
+        "origin": "SFO",
+        "destination": "SYD",
+        "departureTime": "22:00",
+        "arrivalTime": "07:00",
+        "duration": 1200,
+        "stops": ["HKG", "SIN", "BKK"],
+        "transfers": 3
+      },
+      {
+        "origin": "SYD",
+        "destination": "SFO",
+        "departureTime": "12:00",
+        "arrivalTime": "15:00",
+        "duration": 1080,
+        "stops": ["NRT", "SEA", "LAX"],
+        "transfers": 3
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "price": 700,
+    "currency": "USD",
+    "logo": "a4e-logo.svg",
+    "segments": [
+      {
+        "origin": "SFO",
+        "destination": "SYD",
+        "departureTime": "22:00",
+        "arrivalTime": "07:00",
+        "duration": 1200,
+        "stops": ["HKG", "SIN", "BKK"],
+        "transfers": 3
+      },
+      {
+        "origin": "SYD",
+        "destination": "SFO",
+        "departureTime": "12:00",
+        "arrivalTime": "15:00",
+        "duration": 1080,
+        "stops": ["NRT", "SEA", "LAX"],
+        "transfers": 3
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "price": 500,
+    "currency": "USD",
+    "logo": "a4e-logo.svg",
+    "segments": [
+      {
+        "origin": "LHR",
+        "destination": "DXB",
+        "departureTime": "10:45",
+        "arrivalTime": "08:00",
+        "duration": 1235,
+        "stops": ["HKG", "JNB"],
+        "transfers": 2
+      },
+      {
+        "origin": "DXB",
+        "destination": "LHR",
+        "departureTime": "11:20",
+        "arrivalTime": "00:50",
+        "duration": 990,
+        "stops": ["HKG", "JNB"],
+        "transfers": 2
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "price": 600,
+    "currency": "USD",
+    "logo": "a4e-logo.svg",
+    "segments": [
+      {
+        "origin": "JFK",
+        "destination": "LHR",
+        "departureTime": "14:00",
+        "arrivalTime": "06:30",
+        "duration": 1230,
+        "stops": ["AMS"],
+        "transfers": 1
+      },
+      {
+        "origin": "LHR",
+        "destination": "JFK",
+        "departureTime": "08:00",
+        "arrivalTime": "10:30",
+        "duration": 630,
+        "stops": ["CDG"],
+        "transfers": 1
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "price": 700,
+    "currency": "USD",
+    "logo": "a4e-logo.svg",
+    "segments": [
+      {
+        "origin": "SFO",
+        "destination": "SYD",
+        "departureTime": "22:00",
+        "arrivalTime": "07:00",
+        "duration": 1200,
+        "stops": ["HKG"],
+        "transfers": 1
+      },
+      {
+        "origin": "SYD",
+        "destination": "SFO",
+        "departureTime": "12:00",
+        "arrivalTime": "15:00",
+        "duration": 1080,
+        "stops": ["NRT"],
+        "transfers": 1
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "price": 500,
+    "currency": "USD",
+    "logo": "a4e-logo.svg",
+    "segments": [
+      {
+        "origin": "LHR",
+        "destination": "DXB",
+        "departureTime": "10:45",
+        "arrivalTime": "08:00",
+        "duration": 1235,
+        "stops": [],
+        "transfers": 0
+      },
+      {
+        "origin": "DXB",
+        "destination": "LHR",
+        "departureTime": "11:20",
+        "arrivalTime": "00:50",
+        "duration": 990,
+        "stops": [],
+        "transfers": 0
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "price": 600,
+    "currency": "USD",
+    "logo": "a4e-logo.svg",
+    "segments": [
+      {
+        "origin": "JFK",
+        "destination": "LHR",
+        "departureTime": "14:00",
+        "arrivalTime": "06:30",
+        "duration": 1230,
+        "stops": ["AMS"],
+        "transfers": 1
+      },
+      {
+        "origin": "LHR",
+        "destination": "JFK",
+        "departureTime": "08:00",
+        "arrivalTime": "10:30",
+        "duration": 630,
+        "stops": ["CDG"],
+        "transfers": 1
+      }
+    ]
+  },
+  {
+    "id": "13",
+    "price": 700,
+    "currency": "USD",
+    "logo": "a4e-logo.svg",
+    "segments": [
+      {
+        "origin": "SFO",
+        "destination": "SYD",
+        "departureTime": "22:00",
+        "arrivalTime": "07:00",
+        "duration": 1200,
+        "stops": ["HKG", "SIN", "BKK"],
+        "transfers": 3
+      },
+      {
+        "origin": "SYD",
+        "destination": "SFO",
+        "departureTime": "12:00",
+        "arrivalTime": "15:00",
+        "duration": 1080,
+        "stops": ["NRT", "SEA", "LAX"],
+        "transfers": 3
+      }
+    ]
+  }
+]
